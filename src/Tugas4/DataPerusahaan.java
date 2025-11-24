@@ -1,13 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Tugas4;
 
-/**
- *
- * @author Lab Studio
- */
 public class DataPerusahaan {
-    
+    public static void main(String[] args) {
+
+        // membuat objek dari class Karyawan
+        Karyawan kry = new Karyawan();
+
+        // menggunakan setter untuk mengisi data
+        kry.setNIP("2131");
+        kry.setNama("Dede");
+        kry.setDivisi("RPL");
+
+        // menampilkan data menggunakan getter
+        System.out.println("===== DATA KARYAWAN =====");
+        System.out.println("NIP    : " + kry.getNIP());
+        System.out.println("Nama   : " + kry.getNama());
+        System.out.println("Divisi : " + kry.getDivisi());
+    }
 }
