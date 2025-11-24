@@ -11,8 +11,8 @@ public class VotingKetos {
         String pilihan;
 
         System.out.println("====> PROGRAM VOTING KETUA OSIS <====");
-        System.out.println("Masukkan suara untuk Kandidat A atau B");
-        System.out.println("Ketik 'selesai' untuk mengakhiri\n");
+        System.out.println("Masukkan Suara Untuk Kandidat A atau B");
+        System.out.println("Ketik 'selesai' Untuk Mengakhiri\n");
 
         while (true) {
             System.out.print("Masukkan pilihan Anda (A/B): ");
